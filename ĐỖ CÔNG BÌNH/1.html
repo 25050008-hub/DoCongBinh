@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Cá Nhân - Đỗ Công Bình</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- File CSS Tách Riêng -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="logo">
+            <a href="#hero">Đỗ Công Bình<span>.</span></a>
+        </div>
+        
+        <nav class="navbar" id="navbar">
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Trang chủ</a></li>
+                <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+                <li><a href="#skills" class="nav-link">Kỹ năng</a></li>
+                <li><a href="#experience" class="nav-link">Kinh nghiệm</a></li>
+                <li><a href="#projects" class="nav-link">Dự án</a></li>
+                <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button id="theme-toggle" class="icon-btn" title="Đổi giao diện Sáng/Tối">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button id="menu-toggle" class="icon-btn menu-btn" title="Menu di động">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge">Xin chào, tôi là</span>
+                    <h1 class="hero-title">Đỗ Công Bình</h1>
+                    <h2 class="hero-subtitle">Lập Trình Viên Web Front-End</h2>
+                    <p class="hero-desc">Đam mê phát triển ứng dụng Web tối ưu hiệu năng, giao diện hiện đại và trải nghiệm người dùng tuyệt vời.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Xem dự án</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-solid fa-envelope"></i> Liên hệ ngay</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="avatar-frame">
+                        <img src="linkhinh/Hình chân dung.jpg" alt="Chân dung Đỗ Công Bình" class="avatar-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Giới thiệu bản thân & Mục tiêu nghề nghiệp -->
+        <section id="about" class="section">
+            <h2 class="section-title">Giới Thiệu Bản Thân</h2>
+            <div class="about-card">
+                <p class="about-text">
+                    Tôi là <strong>Đỗ Công Bình</strong>, sinh viên ngành Lập trình Web / Công nghệ Thông tin. Tôi yêu thích việc biến các ý tưởng thiết kế thành sản phẩm web thực tế có khả năng tương tác cao và chuẩn tối ưu UI/UX.
+                </p>
+
+                <div class="goal-container">
+                    <h3 class="sub-heading">Mục Tiêu Nghề Nghiệp</h3>
+                    <div class="goal-grid">
+                        <div class="goal-item">
+                            <i class="fa-solid fa-bullseye goal-icon"></i>
+                            <div>
+                                <h4>Mục tiêu ngắn hạn</h4>
+                                <p>Làm chủ kỹ năng Front-End Web (HTML/CSS/JS ES6+), thực hành chuyên sâu các React/Vue framework và hoàn thành tốt dự án thực tập.</p>
+                            </div>
+                        </div>
+                        <div class="goal-item">
+                            <i class="fa-solid fa-chart-line goal-icon"></i>
+                            <div>
+                                <h4>Mục tiêu dài hạn</h4>
+                                <p>Trở thành Full-Stack Developer chuyên nghiệp và đảm nhận vai trò quản lý kỹ thuật (Tech Lead) trong các dự án công nghệ lớn.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kỹ năng chuyên môn -->
+        <section id="skills" class="section bg-alt">
+            <h2 class="section-title">Kỹ Năng Chuyên Môn</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-brands fa-html5 skill-icon"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Semantic HTML, Responsive Flexbox/Grid, CSS Animation & Variables.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-js skill-icon"></i>
+                    <h3>JavaScript (ES6+)</h3>
+                    <p>DOM Manipulation, Async/Await, ES Modules, Fetch API & Event Handling.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-python skill-icon"></i>
+                    <h3>Python / Java</h3>
+                    <p>Tư duy OOP hướng đối tượng, xử lý thuật toán và cấu trúc dữ liệu cơ bản.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-git-alt skill-icon"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Quản lý mã nguồn, Git Branch, Merge conflict & làm việc nhóm GitHub.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Học vấn & Kinh nghiệm -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Học Vấn & Kinh Nghiệm</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - Hiện tại</div>
+                    <div class="timeline-content">
+                        <h3>Sinh viên Chuyên ngành Lập trình Web</h3>
+                        <h4>Trường Cao đẳng / Đại học Công nghệ</h4>
+                        <p>Xây dựng nền tảng tư duy lập trình vững chắc, thành thạo lập trình trang web và đạt thành tích xuất sắc trong các môn chuyên ngành.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Thực tập sinh Front-End Web</h3>
+                        <h4>Công ty Giải pháp Công nghệ</h4>
+                        <p>Tham gia cắt giao diện Figma sang HTML/CSS chuẩn responsive, tối ưu tốc độ truy cập và tương thích đa thiết bị.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dự án cá nhân -->
+        <section id="projects" class="section bg-alt">
+            <h2 class="section-title">Dự Án Cá Nhân</h2>
+            
+            <div class="filter-wrapper">
+                <button class="filter-btn active" data-filter="all">Tất cả</button>
+                <button class="filter-btn" data-filter="web">Web App</button>
+                <button class="filter-btn" data-filter="landing">Landing Page</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Dự án 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img-box">
+                        <img src="linkhinh/Hình Bán Hàng Online.jpg" alt="Website Bán Hàng">
+                    </div>
+                    <div class="project-info">
+                        <h3>Website Bán Hàng Trực Tuyến</h3>
+                        <p>Ứng dụng mua sắm trực tuyến hỗ trợ chọn sản phẩm, quản lý giỏ hàng và lưu trạng thái LocalStorage.</p>
+                        <p class="tech-stack">HTML5, CSS3, JavaScript (DOM, LocalStorage)</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="#" class="btn-link outline" target="_blank"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dự án 2 -->
+                <div class="project-card" data-category="landing">
+                    <div class="project-img-box">
+                        <img src="linkhinh/Hình Ảnh Hội Thảo Công Nghệ.jpg" alt="Landing Page">
+                    </div>
+                    <div class="project-info">
+                        <h3>Landing Page Hội Thảo Công Nghệ</h3>
+                        <p>Trang quảng bá sự kiện với hiệu ứng chuyển động CSS mượt mà, layout cân đối và form đăng ký trực tuyến.</p>
+                        <p class="tech-stack">HTML5, CSS Flexbox/Grid, JS Validation</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            <a href="#" class="btn-link outline" target="_blank"><i class="fa-brands fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chứng chỉ & Sở thích -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Chứng Chỉ & Sở Thích</h2>
+            <div class="cert-grid">
+                <div class="cert-box">
+                    <h3><i class="fa-solid fa-award"></i> Chứng chỉ</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> FreeCodeCamp Responsive Web Design</li>
+                        <li><i class="fa-solid fa-check"></i> Chứng chỉ Tiếng Anh Giao Tiếp</li>
+                    </ul>
+                </div>
+                <div class="cert-box">
+                    <h3><i class="fa-solid fa-heart"></i> Sở thích</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Nghiên cứu UI/UX và xu hướng Web mới</li>
+                        <li><i class="fa-solid fa-check"></i> Rèn luyện thể thao & Chạy bộ</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form liên hệ -->
+        <section id="contact" class="section bg-alt">
+            <h2 class="section-title">Liên Hệ</h2>
+            <div class="contact-card">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="fullname">Họ và tên *</label>
+                        <input type="text" id="fullname" placeholder="Nhập họ và tên...">
+                        <span class="error-text"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                        <span class="error-text"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Tiêu đề *</label>
+                        <input type="text" id="subject" placeholder="Nhập tiêu đề tin nhắn...">
+                        <span class="error-text"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Nội dung *</label>
+                        <textarea id="message" rows="5" placeholder="Nhập nội dung tin nhắn..."></textarea>
+                        <span class="error-text"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-paper-plane"></i> Gửi Tin Nhắn
+                    </button>
+                    <div id="form-alert" class="form-alert"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scroll To Top Button -->
+    <button id="scroll-top" class="scroll-top-btn" title="Về đầu trang">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer - Khối thông tin căn trái ở dưới cùng -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact-info">
+                <p><i class="fa-solid fa-location-dot"></i> <strong>Địa chỉ:</strong> TP. Hồ Chí Minh, Việt Nam</p>
+                <p><i class="fa-solid fa-phone"></i> <strong>Điện thoại:</strong> <a href="tel:0912345678">0912 345 678</a></p>
+                <p><i class="fa-solid fa-envelope"></i> <strong>Gmail:</strong> <a href="mailto:25050008@student.bdu.edu.vn">25050008@student.bdu.edu.vn</a></p>
+            </div>
+            <div class="copyright-box">
+                <p>&copy; 2026 Đỗ Công Bình. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- File JS Tách Riêng -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
